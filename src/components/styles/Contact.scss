@@ -1,0 +1,56 @@
+.contact {
+    width: 100%;
+    height: 100vh;
+    background: rgb(248,235,235);
+}
+
+a {
+    color: rgb(82,76,76);
+}
+
+.inputs {
+    display: flex;
+    height: 80%;
+    width: 60%;
+    margin:  0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        color: rgb(82,76,76);
+    }
+
+    input {
+        width: 100%;
+        padding: 20px;
+        outline: none;
+        border: none;
+        margin-block: 0.5rem;
+    }
+
+    .message {
+        padding-bottom: 10rem;
+    }
+
+    button {
+        padding: 10px 40px;
+        background: linear-gradient(45deg,rgba(216, 46, 8, 0.085),rgba(62, 7, 189, 0.126));
+        cursor: pointer;
+        color: black;
+        border-radius: 5px;
+        border: 1px solid #fff;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+}
+
+@media (max-width:550px) {
+    .inputs {
+        width: 80%;
+
+        input {
+            padding: 15px;
+        }
+    }
+}
