@@ -11,7 +11,7 @@ const Section = () => {
         </div>
 
         <div className="sectionContent">
-          <h1>Cogito, ergo sum</h1>
+          <h1>Technical Skills</h1>
           <h3>PROFICIENT IN FUNDAMENTALS</h3>
           <p>FRONT-END DEVELOPMENT</p>
           <p>HTML, CSS, and JavaScript</p>
